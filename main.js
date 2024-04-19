@@ -8,7 +8,7 @@ function verificarTime() {
     var respostaTime = prompt("Qual o melhor o colégio público de Arapongas?");
 
     
-    if (respostaTime.toLowerCase() === "A") {
+    if (respostaTime.toLowerCase() === "GARCEZ") {
       alert("Isso mesmo! O Garcez!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
